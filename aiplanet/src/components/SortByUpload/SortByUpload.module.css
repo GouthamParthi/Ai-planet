@@ -1,0 +1,6 @@
+.selects {
+  border-radius: 40px;
+  width: 140px;
+  height: 37px;
+  border: 1px solid var(--color-black);
+}

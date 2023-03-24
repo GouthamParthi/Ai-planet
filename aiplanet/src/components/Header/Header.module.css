@@ -1,0 +1,12 @@
+.header {
+  width: 80%;
+  height: 66px;
+  background-color: --var(--color-white);
+  margin-left: 62px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header img {
+  height: 39px;
+}

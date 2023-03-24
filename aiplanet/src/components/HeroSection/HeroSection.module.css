@@ -1,0 +1,54 @@
+.heroSection {
+  height: 414px;
+  width: 100vw;
+  background-color: var(--color-navy);
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 145px;
+  padding-right: 110px;
+  overflow: hidden;
+}
+.header {
+  font-size: 31px;
+  font-weight: 600;
+}
+.bulbImage {
+  height: 310px;
+  width: 250;
+  position: absolute;
+  right: 0;
+  z-index: 5;
+}
+.waveImage {
+  height: 300px;
+  width: 1400px;
+  object-position: center;
+  left: 100px;
+  bottom: 0;
+  z-index: 1;
+  position: absolute;
+}
+.container {
+  width: 900px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.description {
+  width: auto;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 10;
+}
+.description button {
+  width: 192px;
+  height: 50px;
+  background-color: var(--color-primary);
+  border-radius: 10px;
+  border: 0px;
+  color: var(--color-white);
+  cursor: pointer;
+}
